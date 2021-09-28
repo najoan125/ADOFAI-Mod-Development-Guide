@@ -12,4 +12,5 @@
  - 위 링크를 클릭하여 들어간 후 Visual Studio 다운로드 -> Community 2019 클릭
  - 잠시 뒤 설치 파일이 다운로드 됨
  - 설치 파일 실행 후 설치
+
 [X] [[➡]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev1.md) (0/6)
