@@ -89,4 +89,4 @@ public static class Main
 위와 같이 빨간줄이 뜬다면 빨간줄이 뜬 텍스트에 마우스를 갖다대고 `Alt` + `Enter`를 눌러보세요    
 ![팁](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/img/altenter.png?raw=true)     
 
-[X] [[➡]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev2.md) (1/6)
+[[⬅]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev0.md) [[➡]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev2.md) (1/6)
