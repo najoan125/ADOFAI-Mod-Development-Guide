@@ -1,4 +1,5 @@
 ## 목차
+ - [Visual Studio 설치](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev0.md)
  - **프로젝트 기본 설정**
  - [메소드 패치](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev2.md)
  - [GUI 띄우기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev3.md)
@@ -7,7 +8,7 @@
  - [얼불춤 코드 보기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev6.md)
 
 ## 1. 시작 전 준비물
- - [Visual Studio 2019](https://visualstudio.microsoft.com/ko/vs/)
+ - [Visual Studio 2019](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev0.md)
  - 얼불춤 ( UMM이 설치된 상태 )
  - [.NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088517)
  - [dnspy](https://github.com/dnSpy/dnSpy/releases/download/v6.1.8/dnSpy-net-win64.zip)
@@ -53,6 +54,13 @@ public static class Main
   {
     Logger = modEntry.Logger;
     modEntry.OnToggle = OnToggle;
+    modEntry.OnUpdate = OnUpdate; //선택
+  }
+  
+  //선택
+  private static void OnUpdate(UnityModManager.ModEntry modentry, float deltaTime)
+  {
+   //반복적으로 작동할 구문
   }
   
   private static bool OnToggle(UnityModManager.ModEntry modEntry, bool value)
