@@ -1,19 +1,19 @@
 # 목차
- - [프로젝트 기본 설정](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev1.md)
+ - [프로젝트 기본 설정](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev1.md)
  - **메소드 패치**
- - [GUI 띄우기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md)
- - [모드 설정창](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev4.md)
- - [프로젝트 빌드](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev5.md)
- - [얼불춤 코드 보기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)
+ - [GUI 띄우기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev3.md)
+ - [모드 설정창](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev4.md)
+ - [프로젝트 빌드](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev5.md)
+ - [얼불춤 코드 보기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev6.md)
 
 # 메소드 패치
 모든 모드들은 메소드(함수)를 패치(수정) 하기 위해서 `0Harmony.dll`을 사용합니다      
 
 # 새 클래스 추가하기
-![클래스선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/raw/main/img/class.png?raw=true)    
+![클래스선택](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/raw/main/ModdingGuide/img/class.png?raw=true)    
 프로젝트이름 선택 ( 저는 프로젝트 이름을 ClassLibrary2 으로 해둠 ) -> 추가 -> 새 항목     
 <br>
-![항목선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/raw/main/img/cselect.png?raw=true)    
+![항목선택](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/raw/main/ModdingGuide/img/cselect.png?raw=true)    
 클래스 선택 후 추가를 누르면 새 클래스가 추가가 됩니다.
 
 ## 1. HarmonyPatch 
@@ -132,7 +132,7 @@ public static class PatchTest {
 `__result`에서 `ref`를 사용하는 이유는 `ref` 키워드를 사용해야 변경된 값을 전달할수 있기 때문입니다.
 
 ## "그래서 얼불춤 클래스와 메소드를 어떻게 찾나요?"
-차근차근 설명할거에요 그래도 바로 알고싶다면 [여기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)를 참고해보세요.
+차근차근 설명할거에요 그래도 바로 알고싶다면 [여기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev6.md)를 참고해보세요.
 
 ### 짤막 팁
 private 필드를 불러올때는 굳이 파람미터 안쓰고 리플렉션을 이용해서 불러올 수 있어요
@@ -145,4 +145,4 @@ typeof(T).GetField(Method_Name, AccessTools.all)?.GetValue(Class_Instance);
 
 
 
-[[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev1.md) [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md) (2/6)
+[[⬅]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev1.md) [[➡]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev3.md) (2/6)

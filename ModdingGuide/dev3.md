@@ -1,11 +1,11 @@
 
 ## 목차
- - [프로젝트 기본 설정](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev1.md)
- - [메소드 패치](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md)
+ - [프로젝트 기본 설정](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev1.md)
+ - [메소드 패치](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev2.md)
  - **GUI 띄우기**
- - [모드 설정창](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev4.md)
- - [프로젝트 빌드](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev5.md)
- - [얼불춤 코드 보기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)
+ - [모드 설정창](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev4.md)
+ - [프로젝트 빌드](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev5.md)
+ - [얼불춤 코드 보기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev6.md)
 
 ## GUI 띄우기
  GUI를 띄우기 위해서는 `UnityEngine.dll`, `UnityEngine.CoreModule.dll`, `UnityEngine.IMGUIModule.dll`, `UnityEngine.UI.dll`을 참조해야 합니다
@@ -84,4 +84,4 @@ UnityEngine.Object.DestroyImmediate(test);
 `OnGUI`는 비교적 렉이 조금 걸립니다. 하지만 쉽게 UI를 생성할 수 있습니다.    
 본인이 어느정도 실력이 쌓였다 생각하면 `OnGUI`대신 렉이 덜 걸리는 `Canvas`로 UI를 띄워보세요
 
-[[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev4.md) (3/6)
+[[⬅]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev2.md) [[➡]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev4.md) (3/6)

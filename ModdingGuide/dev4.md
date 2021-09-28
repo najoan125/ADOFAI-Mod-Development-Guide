@@ -1,18 +1,18 @@
 ## 목차
- - [프로젝트 기본 설정](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev1.md)
- - [메소드 패치](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md)
- - [GUI 띄우기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md)
+ - [프로젝트 기본 설정](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev1.md)
+ - [메소드 패치](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev2.md)
+ - [GUI 띄우기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev3.md)
  - **모드 설정창**
- - [프로젝트 빌드](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev5.md)
- - [얼불춤 코드 보기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)
+ - [프로젝트 빌드](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev5.md)
+ - [얼불춤 코드 보기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev6.md)
 
 ## 모드 설정창 
-![설정창](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/setting.png?raw=true)   
+![설정창](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/img/setting.png?raw=true)   
 위 사진처럼 모드 설정창이 필요하고 이를 저장하는 기능이 필요할때가 있습니다   
 이떄 UnityModManager.ModEntry에 `OnGUI`와 `OnSaveGUI`를 사용합니다.
 
 ## 1. OnGUI
-[프로젝트 기본 설정](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev1.md)에서 만들었던 Main.cs로 돌아가고 `OnGUI` 를 만들어 줍니다. 
+[프로젝트 기본 설정](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev1.md)에서 만들었던 Main.cs로 돌아가고 `OnGUI` 를 만들어 줍니다. 
 ```cs
 private static void OnGUI(UnityModManager.ModEntry modEntry)
 {
@@ -20,7 +20,7 @@ private static void OnGUI(UnityModManager.ModEntry modEntry)
 
 ```
 `OnGUI`안에는 GUI보단 GUILayout을 쓰는 것을 추천합니다.  
-나머지는 [앞 페이지](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md)에서 했던거와 같이 해주시면 됩니다.
+나머지는 [앞 페이지](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev3.md)에서 했던거와 같이 해주시면 됩니다.
 
 ## 2. OnSaveGUI
 `ShowBPM`처럼 뭔가를 저장해야할 때가 생길때 OnSaveGUI를 씁니다.    
@@ -73,4 +73,4 @@ modEntry.OnSaveGUI = OnSaveGUI;
 ```
 를 추가하시면 적용이 완료됩니다.
 
-[[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md) [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev5.md) (4/6)
+[[⬅]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev3.md) [[➡]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev5.md) (4/6)
