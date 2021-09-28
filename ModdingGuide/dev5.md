@@ -35,6 +35,8 @@ UMM이 모드를 읽기 위해서는 Info.json이라는게 필요합니다
 |AssemblyName|불러올 어셈블리의 이름|
 |EntryMethod|실행할 어셈블리의 메소드|   
 
+(모드의 버전 및 배포 관련 사항은 [여기](https://github.com/CrackThrough/ADOFAI-Mod-Installation-Guide/blob/main/kor/dev-3.md)를 참고해주세요)
+
 가장 첫페이지에서 했던 Setup이 여기에 들어갑니다.
 
 ### 예시
