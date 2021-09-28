@@ -1,10 +1,10 @@
 ## 목차
  - **프로젝트 기본 설정**
- - [메소드 패치](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md)
- - [GUI 띄우기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md)
- - [모드 설정창](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev4.md)
- - [프로젝트 빌드](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev5.md)
- - [얼불춤 코드 보기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)
+ - [메소드 패치](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev2.md)
+ - [GUI 띄우기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev3.md)
+ - [모드 설정창](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev4.md)
+ - [프로젝트 빌드](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev5.md)
+ - [얼불춤 코드 보기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev6.md)
 
 ## 1. 시작 전 준비물
  - [Visual Studio 2019](https://visualstudio.microsoft.com/ko/vs/)
@@ -13,16 +13,16 @@
  - [dnspy](https://github.com/dnSpy/dnSpy/releases/download/v6.1.8/dnSpy-net-win64.zip)
 
 ## 2. 프로젝트 생성
-![프로젝트생성](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/make.png?raw=true)
+![프로젝트생성](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/img/make.png?raw=true)
 새 프로젝트 만들기 클릭     
     <br>
-![선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/select2.png?raw=true)
+![선택](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/img/select2.png?raw=true)
 클래스 라이브러리 (.NET Framework) 선택 후 다음 클릭     
 프레임워크는 4.8을 추천합니다     
 만약 클래스 라이브러리가 없다면 Visual Studio Installer에서 `.NET 데스크톱 개발`을 설치해 주세요    
 
 ## 3. 레퍼런스 참조
-![참조](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/add.png?raw=true)      
+![참조](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/img/add.png?raw=true)      
 맨 오른쪽에 있는 탭들중 `참조` 우클릭후 `참조 추가` 클릭    
     
 `찾아보기`를 누른 후 아래에 있는 항목들을 모두 참조해주세요.
@@ -32,7 +32,7 @@
 
 
 ## 4. 셋업 만들기
-![탭들](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/tabs.png?raw=true)     
+![탭들](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/img/tabs.png?raw=true)     
 프로젝트 생성될때 같이 생긴 Class1.cs을 우클릭 후 이름을 바꿔서 Main.cs라고 지정해줍니다. ( 꼭 Main일 필요 없음 )
 ```cs
 public static class Main
@@ -77,8 +77,8 @@ public static class Main
 
 
 ### 짤막 팁
-![빨강](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/redline.png?raw=true)     
+![빨강](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/img/redline.png?raw=true)     
 위와 같이 빨간줄이 뜬다면 빨간줄이 뜬 텍스트에 마우스를 갖다대고 `Alt` + `Enter`를 눌러보세요    
-![팁](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/altenter.png?raw=true)     
+![팁](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/img/altenter.png?raw=true)     
 
-[X] [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) (1/6)
+[X] [[➡]](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev2.md) (1/6)
