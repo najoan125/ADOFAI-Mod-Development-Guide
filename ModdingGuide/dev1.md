@@ -49,6 +49,7 @@ public static class Main
   public static UnityModManager.ModEntry.ModLogger Logger;
   public static Harmony harmony;
   public static bool IsEnabled = false;
+  public static bool isplaying = false; //OnUpdate에 사용되기 위한 예시
   
   public static void Setup(UnityModManager.ModEntry modEntry)
   {
@@ -61,6 +62,9 @@ public static class Main
   private static void OnUpdate(UnityModManager.ModEntry modentry, float deltaTime)
   {
    //반복적으로 작동할 구문
+    //예시
+    isplaying = !scrController.instance.paused && scrConductor.instance.isGameWorld; 
+    //레벨을 플레이 중이고 일시정지 상태가 아니면 true, 레벨을 플레이 하고 있지 않거나 일시정지 상태면 false
   }
   
   private static bool OnToggle(UnityModManager.ModEntry modEntry, bool value)
