@@ -63,6 +63,10 @@ public static class Main
   {
    //반복적으로 작동할 구문
     //예시
+	if (!ScrController.instance || !ScrConductor.instance)
+	{
+		return; //모드가 실행될 때 로그에 NullPointerException이 뜨지 않도록 해줌
+	}
     isplaying = !scrController.instance.paused && scrConductor.instance.isGameWorld; 
     //레벨을 플레이 중이고 일시정지 상태가 아니면 true, 레벨을 플레이 하고 있지 않거나 일시정지 상태면 false
   }
