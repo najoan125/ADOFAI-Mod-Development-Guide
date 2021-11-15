@@ -63,7 +63,7 @@ public static class Main
   {
    //반복적으로 작동할 구문
     //예시
-    if (!ScrController.instance || !ScrConductor.instance)
+    if (!scrController.instance || !scrConductor.instance) //RDTools.dll, UnityEngine.dll, UnityEngine.CoreModule.dll 참조 필요
     {
 	return; //모드가 실행될 때 로그에 NullPointerException이 뜨지 않도록 해줌
     }
