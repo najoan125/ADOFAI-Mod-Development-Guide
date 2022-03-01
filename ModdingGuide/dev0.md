@@ -13,7 +13,7 @@
 
 ## 2. Visual Studio 다운로드
  - [Visual Studio 2022](https://visualstudio.microsoft.com/ko/vs/)
- - 위 링크를 클릭하여 들어간 후 Visual Studio 다운로드 -> Community 2019 클릭
+ - 위 링크를 클릭하여 들어간 후 Visual Studio 다운로드 -> Community 2022 클릭
  - 잠시 뒤 설치 파일이 다운로드 됨
  - 설치 파일 실행
  - 설치할 항목 선택하는 화면에서 `.NET 데스크톰 개발` 체크 후, 설치 클릭
