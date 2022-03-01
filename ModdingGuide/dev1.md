@@ -8,7 +8,7 @@
  - [얼불춤 코드 보기](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev6.md)
 
 ## 1. 시작 전 준비물
- - [Visual Studio 2019](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev0.md)
+ - [Visual Studio 2022](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/dev0.md)
  - 얼불춤 ( UMM이 설치된 상태 )
  - [.NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088517)
  - [dnspy](https://github.com/dnSpy/dnSpy/releases/download/v6.1.8/dnSpy-net-win64.zip)
