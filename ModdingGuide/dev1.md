@@ -91,6 +91,7 @@ public static class Main
 }
 ```
 
+[위 코드 복사하기](https://pastebin.com/hgDbmrjE)
 
 ### 짤막 팁
 ![빨강](https://github.com/najoan125/ADOFAI-Mod-Development-Guide/blob/main/ModdingGuide/img/redline.png?raw=true)     
